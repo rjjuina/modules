@@ -1,0 +1,8 @@
+#!name=SG remove ad module
+#!desc=fairprice
+
+[URL Rewrite]
+^https?:\/\/api\.p13n\.fairprice\.com\.sg\/layout\/v1\/splashscreens - reject
+
+[MITM]
+hostname = api.p13n.fairprice.com.sg
